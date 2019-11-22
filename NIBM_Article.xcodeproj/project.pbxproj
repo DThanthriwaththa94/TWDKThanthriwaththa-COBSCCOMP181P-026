@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,19 @@
 		15C1E17C238838DB00FC5379 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E17B238838DB00FC5379 /* LoginViewController.swift */; };
 		15C1E17E238838F500FC5379 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E17D238838F500FC5379 /* SignUpViewController.swift */; };
 		15C1E1842388544F00FC5379 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15C1E1832388544F00FC5379 /* GoogleService-Info.plist */; };
+		15C1E19E23885A6500FC5379 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E19D23885A6500FC5379 /* HomeTableViewController.swift */; };
+		15C1E1A123885A8600FC5379 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E19F23885A8600FC5379 /* ArticleTableViewCell.swift */; };
+		15C1E1A223885A8600FC5379 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C1E1A023885A8600FC5379 /* ArticleTableViewCell.xib */; };
+		15C1E1A423885A9D00FC5379 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1A323885A9D00FC5379 /* ImagePicker.swift */; };
+		15C1E1A623885AC500FC5379 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1A523885AC500FC5379 /* CreateNewPostViewController.swift */; };
+		15C1E1A823885ADC00FC5379 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1A723885ADC00FC5379 /* MyProfileViewController.swift */; };
+		15C1E1AB23885AF200FC5379 /* SingleArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1A923885AF200FC5379 /* SingleArticleViewController.swift */; };
+		15C1E1AC23885AF200FC5379 /* SingleArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C1E1AA23885AF200FC5379 /* SingleArticleViewController.xib */; };
+		15C1E1AF23885B0400FC5379 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1AD23885B0400FC5379 /* UserViewController.swift */; };
+		15C1E1B023885B0400FC5379 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C1E1AE23885B0400FC5379 /* UserViewController.xib */; };
+		15C1E1B323885B1900FC5379 /* EditPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1B123885B1900FC5379 /* EditPostViewController.swift */; };
+		15C1E1B423885B1900FC5379 /* EditPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C1E1B223885B1900FC5379 /* EditPostViewController.xib */; };
+		15C1E1B623885B7800FC5379 /* TabbedBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1E1B523885B7800FC5379 /* TabbedBarViewController.swift */; };
 		885190BA0EC06E4FF324A7AA /* Pods_NIBM_Article_NIBM_ArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02868DCAF77FFE448458DBA1 /* Pods_NIBM_Article_NIBM_ArticleUITests.framework */; };
 		B4D5F65687E56A3B089B6170 /* Pods_NIBM_Article.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFC1FCFB8B322F14CB5B492 /* Pods_NIBM_Article.framework */; };
 		C7B0A9C6CCA4355F777AE2D3 /* Pods_NIBM_ArticleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95D2954B2766B9501DFD679 /* Pods_NIBM_ArticleTests.framework */; };
@@ -65,6 +78,19 @@
 		15C1E17B238838DB00FC5379 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		15C1E17D238838F500FC5379 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		15C1E1832388544F00FC5379 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15C1E19D23885A6500FC5379 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		15C1E19F23885A8600FC5379 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		15C1E1A023885A8600FC5379 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		15C1E1A323885A9D00FC5379 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		15C1E1A523885AC500FC5379 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
+		15C1E1A723885ADC00FC5379 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		15C1E1A923885AF200FC5379 /* SingleArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleArticleViewController.swift; sourceTree = "<group>"; };
+		15C1E1AA23885AF200FC5379 /* SingleArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleArticleViewController.xib; sourceTree = "<group>"; };
+		15C1E1AD23885B0400FC5379 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		15C1E1AE23885B0400FC5379 /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		15C1E1B123885B1900FC5379 /* EditPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPostViewController.swift; sourceTree = "<group>"; };
+		15C1E1B223885B1900FC5379 /* EditPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPostViewController.xib; sourceTree = "<group>"; };
+		15C1E1B523885B7800FC5379 /* TabbedBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedBarViewController.swift; sourceTree = "<group>"; };
 		2BFC1FCFB8B322F14CB5B492 /* Pods_NIBM_Article.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Article.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		498EC9299171C4C80BD27EB8 /* Pods-NIBM_Article-NIBM_ArticleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Article-NIBM_ArticleUITests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_Article-NIBM_ArticleUITests/Pods-NIBM_Article-NIBM_ArticleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		52FB006A91C0324A2A3A66A5 /* Pods-NIBM_Article-NIBM_ArticleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Article-NIBM_ArticleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_Article-NIBM_ArticleUITests/Pods-NIBM_Article-NIBM_ArticleUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +165,19 @@
 				15C1E147238833D000FC5379 /* NIBM_Article.xcdatamodeld */,
 				15C1E14E238833D100FC5379 /* Preview Content */,
 				15C1E176238834FF00FC5379 /* main.storyboard */,
+				15C1E19D23885A6500FC5379 /* HomeTableViewController.swift */,
+				15C1E19F23885A8600FC5379 /* ArticleTableViewCell.swift */,
+				15C1E1A023885A8600FC5379 /* ArticleTableViewCell.xib */,
+				15C1E1A323885A9D00FC5379 /* ImagePicker.swift */,
+				15C1E1A523885AC500FC5379 /* CreateNewPostViewController.swift */,
+				15C1E1A723885ADC00FC5379 /* MyProfileViewController.swift */,
+				15C1E1A923885AF200FC5379 /* SingleArticleViewController.swift */,
+				15C1E1AA23885AF200FC5379 /* SingleArticleViewController.xib */,
+				15C1E1AD23885B0400FC5379 /* UserViewController.swift */,
+				15C1E1AE23885B0400FC5379 /* UserViewController.xib */,
+				15C1E1B123885B1900FC5379 /* EditPostViewController.swift */,
+				15C1E1B223885B1900FC5379 /* EditPostViewController.xib */,
+				15C1E1B523885B7800FC5379 /* TabbedBarViewController.swift */,
 			);
 			path = NIBM_Article;
 			sourceTree = "<group>";
@@ -189,7 +228,6 @@
 				B7FFE191F6A1E1E8A455996C /* Pods-NIBM_ArticleTests.debug.xcconfig */,
 				F4DB494FD4A593927F052A29 /* Pods-NIBM_ArticleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -313,9 +351,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C1E153238833D100FC5379 /* LaunchScreen.storyboard in Resources */,
+				15C1E1B023885B0400FC5379 /* UserViewController.xib in Resources */,
 				15C1E150238833D100FC5379 /* Preview Assets.xcassets in Resources */,
 				15C1E14D238833D100FC5379 /* Assets.xcassets in Resources */,
+				15C1E1B423885B1900FC5379 /* EditPostViewController.xib in Resources */,
 				15C1E17A2388352600FC5379 /* Login.storyboard in Resources */,
+				15C1E1A223885A8600FC5379 /* ArticleTableViewCell.xib in Resources */,
+				15C1E1AC23885AF200FC5379 /* SingleArticleViewController.xib in Resources */,
 				15C1E177238834FF00FC5379 /* main.storyboard in Resources */,
 				15C1E1842388544F00FC5379 /* GoogleService-Info.plist in Resources */,
 			);
@@ -447,10 +489,19 @@
 			files = (
 				15C1E17E238838F500FC5379 /* SignUpViewController.swift in Sources */,
 				15C1E144238833D000FC5379 /* AppDelegate.swift in Sources */,
+				15C1E1AF23885B0400FC5379 /* UserViewController.swift in Sources */,
 				15C1E146238833D000FC5379 /* SceneDelegate.swift in Sources */,
+				15C1E1AB23885AF200FC5379 /* SingleArticleViewController.swift in Sources */,
+				15C1E1B623885B7800FC5379 /* TabbedBarViewController.swift in Sources */,
+				15C1E1A423885A9D00FC5379 /* ImagePicker.swift in Sources */,
+				15C1E1A823885ADC00FC5379 /* MyProfileViewController.swift in Sources */,
 				15C1E14B238833D000FC5379 /* ContentView.swift in Sources */,
+				15C1E1B323885B1900FC5379 /* EditPostViewController.swift in Sources */,
+				15C1E1A123885A8600FC5379 /* ArticleTableViewCell.swift in Sources */,
+				15C1E19E23885A6500FC5379 /* HomeTableViewController.swift in Sources */,
 				15C1E17C238838DB00FC5379 /* LoginViewController.swift in Sources */,
 				15C1E149238833D000FC5379 /* NIBM_Article.xcdatamodeld in Sources */,
+				15C1E1A623885AC500FC5379 /* CreateNewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
